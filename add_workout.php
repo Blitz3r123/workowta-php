@@ -96,11 +96,44 @@
 				*/
 				input_div.appendChild(label_div);
 				/*
-					
+					<p class="header">
+						<p class="header">input value</p>
+					</p>
 				*/
 				header.appendChild(header_text);
+				/*
+					<div class="content">
+						<p class="header">
+							<p class="header">input value</p>
+						</p>
+					</div>
+				*/
 				content.appendChild(header);
+				/*
+					<div class="content">
+						<p class="header">
+							<p class="header">input value</p>
+						</p>
+						<div class="ui right labeled input">
+							<input type="text" class=" " placeholder="Enter rep amount"/>
+							<div class="ui basic label">reps</div>
+						</div>
+					</div>
+				*/
 				content.appendChild(input_div);
+				/*
+					<div class="card">
+						<div class="content">
+							<p class="header">
+								<p class="header">input value</p>
+							</p>
+							<div class="ui right labeled input">
+								<input type="text" class=" " placeholder="Enter rep amount"/>
+								<div class="ui basic label">reps</div>
+							</div>
+						</div>
+					</div>
+				*/
 				card.appendChild(content);
 
 				return card;
