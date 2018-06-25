@@ -40,7 +40,7 @@
 		<script src="js/global_functions.js"></script>
 		<script>
 			function addExercise(){
-				var card = createCard();
+				var card = createExerciseCard();
 				document.getElementById("exerciseList").appendChild(card);
 				document.getElementById("exerciseName").value = "";
 			}

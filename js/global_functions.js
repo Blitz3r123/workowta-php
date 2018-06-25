@@ -1,4 +1,4 @@
-function createCard(){
+function createExerciseCard(){
 	/*
 		<div class="card"></div>
 	*/
@@ -93,6 +93,10 @@ function createCard(){
 }
 
 function createElement(elementName, className){
+	/*
+		Function that creates an element using its name and a class can be added
+		If no class is added parameter will be ""
+	*/
 	element = document.createElement(elementName);
 	element.className += " " + className;
 	return element;	
