@@ -24,12 +24,12 @@
 						Add Exercise
 					</span>
 				</p>
-				<ul id="exerciseList">
-				</ul>
+				<!-- <ul id="exerciseList">
+				</ul> -->
 				<div class="ui link cards" id="exerciseList">
 					
 				</div>
-				<div class="ui buttons">
+				<div class="ui buttons add_exercise_button">
 					<a href="index.php" class="ui button">Cancel</a>
 					<div class="or"></div>
 					<input type="submit" value="Save Workout" class="ui positive button"></input>
@@ -46,9 +46,9 @@
 					text: text to be inserted into the paragraph tag
 				*/
 				//Create the LI element which will be empty
-				var LINode = document.createElement("LI", "");
+				var LINode = createElement("div", "card");
 				//Set the class of the LI element created
-				LINode.className += "liClass";
+				LINode.className += " exercise_input";
 				//Create the paragraph tag that will contain the text within it
 				var anchorNode = document.createElement("p", "");
 				//Create the text that will go into the paragraph tag
@@ -77,7 +77,7 @@
 
 			function createElement(elementName, className){
 				element = document.createElement(elementName);
-				element.className += className;
+				element.className += " " + className;
 				return element;	
 			}
 
