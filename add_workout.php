@@ -31,12 +31,28 @@
 			<div class="ui buttons add_exercise_button">
 				<a href="index.php" class="ui button">Cancel</a>
 				<div class="or"></div>
-				<input type="submit" value="Save Workout" class="ui positive button"></input>
+				<input type="submit" value="Save Workout" class="ui positive button" onclick="storeData()"></input>
 			</div>
 		</div>
 	
 		<script src="js/global_functions.js"></script>
 		<script>
+			function storeData(){
+				var exercise_card_amount = document.documentElement.childNodes[2].childNodes[1].childNodes[20].children.length;
+
+				for(i = 0; i < exercise_card_amount; i++){
+					/*
+						card:
+						console.log(document.documentElement.childNodes[2].childNodes[1].childNodes[20].children[i]);
+					*/
+					var exercise_title_value = document.documentElement.childNodes[2].childNodes[1].childNodes[20].children[i].childNodes[0].childNodes[0].childNodes[0].nodeValue;
+					var rep_value = document.documentElement.childNodes[2].childNodes[1].childNodes[20].children[i].childNodes[0].childNodes[1].childNodes[0].value; 
+					var set_value = document.documentElement.childNodes[2].childNodes[1].childNodes[20].children[i].childNodes[0].childNodes[3].childNodes[0].value; 
+
+					// console.log(exercise_title_value + "= Reps: " + rep_value + ". Sets: " + set_value + ".");
+				}
+			}
+
 			function prefunction(){
 				var input = document.getElementById("exerciseName");
 
