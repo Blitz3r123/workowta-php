@@ -1,4 +1,6 @@
 function createExerciseCard(){
+	//<p></p>
+	var empty_paragraph = createElement("p", "");
 	/*
 		<div class="card"></div>
 	*/
@@ -19,29 +21,34 @@ function createExerciseCard(){
 		<div class="ui right labeled input"></div>
 	*/
 	var input_div = createElement("div", "ui right labeled input");
+	var sets_input_div = createElement("div", "ui right labeled input");
 	/*
 		<input type="text" class="" placeholder="Enter rep amount"/>
 	*/
 	var input = createInput("text", "", "Enter rep amount");
+	var sets_input = createInput("text", "", "Enter set amount");
 	/*
 		<div class="ui basic label"></div>
 	*/
 	var label_div = createElement("div", "ui basic label");
+	var sets_label_div = createElement("div", "ui basic label");
 	/*
 		<div class="ui basic label">reps</div>
 	*/
 	var label_div_text = document.createTextNode("reps");
-
+	var label_div_text_sets = document.createTextNode("sets");
 	/*
 		<div class="ui basic label">reps</div>
 	*/
 	label_div.appendChild(label_div_text);
+	sets_label_div.appendChild(label_div_text_sets);
 	/*
 		<div class="ui right labeled input">
 			<input type="text" class=" "" placeholder="Enter rep amount"/>
 		</div>
 	*/
 	input_div.appendChild(input);
+	sets_input_div.appendChild(sets_input);
 	/*
 		<div class="ui right labeled input">
 			<input type="text" class=" " placeholder="Enter rep amount"/>
@@ -49,6 +56,7 @@ function createExerciseCard(){
 		</div>
 	*/
 	input_div.appendChild(label_div);
+	sets_input_div.appendChild(sets_label_div);
 	/*
 		<p class="header">
 			<p class="header">input value</p>
@@ -75,6 +83,8 @@ function createExerciseCard(){
 		</div>
 	*/
 	content.appendChild(input_div);
+	content.appendChild(empty_paragraph);
+	content.appendChild(sets_input_div);
 	/*
 		<div class="card">
 			<div class="content">
