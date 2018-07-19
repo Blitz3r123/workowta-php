@@ -26,7 +26,21 @@
 			<!-- <ul id="exerciseList">
 			</ul> -->
 			<div class="ui link cards" id="exerciseList">
-				
+				<!-- <div class="card">
+					<div class=" content">
+						<p class=" header">Push Up</p>
+						<div class=" ui right labeled input">
+							<input class="  " placeholder="Enter rep amount" type="text">
+							<div class=" ui basic label">reps</div>
+						</div>
+						<p class=" "></p>
+						<div class=" ui right labeled input">
+							<input class="  " placeholder="Enter set amount" type="text">
+							<div class=" ui basic label">sets</div>
+						</div>
+					</div>
+				</div> -->
+
 			</div>
 			<div class="ui buttons add_exercise_button">
 				<a href="index.php" class="ui button">Cancel</a>
@@ -49,7 +63,7 @@
 					var rep_value = document.documentElement.childNodes[2].childNodes[1].childNodes[20].children[i].childNodes[0].childNodes[1].childNodes[0].value; 
 					var set_value = document.documentElement.childNodes[2].childNodes[1].childNodes[20].children[i].childNodes[0].childNodes[3].childNodes[0].value; 
 
-					// console.log(exercise_title_value + "= Reps: " + rep_value + ". Sets: " + set_value + ".");
+					console.log(exercise_title_value + "= Reps: " + rep_value + ". Sets: " + set_value + ".");
 				}
 			}
 
