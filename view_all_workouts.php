@@ -28,28 +28,28 @@
 					<div class="four wide column">
 						<div class="ui card">
 							<div class="content">
-								<a href="" class="header text-align-center"><p><i class="ui icon outline file alternate"></i>Back Workout</p></a>
+								<a href="view_workout.php" class="header text-align-center"><p><i class="ui icon outline file alternate"></i>Back Workout</p></a>
 							</div>
 						</div>
 					</div>
 					<div class="four wide column">
 						<div class="ui card">
 							<div class="content">
-								<a href="" class="header text-align-center"><p><i class="ui icon outline file alternate"></i>Chest Workout</p></a>
+								<a href="view_workout.php" class="header text-align-center"><p><i class="ui icon outline file alternate"></i>Chest Workout</p></a>
 							</div>
 						</div>
 					</div>
 					<div class="four wide column">
 						<div class="ui card">
 							<div class="content">
-								<a href="" class="header text-align-center"><p><i class="ui icon outline file alternate"></i>Bicep Workout</p></a>
+								<a href="view_workout.php" class="header text-align-center"><p><i class="ui icon outline file alternate"></i>Bicep Workout</p></a>
 							</div>
 						</div>
 					</div>
 					<div class="four wide column">
 						<div class="ui card">
 							<div class="content">
-								<a href="" class="header text-align-center"><p><i class="ui icon outline file alternate"></i>Tricep Workout</p></a>
+								<a href="view_workout.php" class="header text-align-center"><p><i class="ui icon outline file alternate"></i>Tricep Workout</p></a>
 							</div>
 						</div>
 					</div>
