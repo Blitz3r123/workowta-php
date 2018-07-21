@@ -13,7 +13,7 @@
 				<a class="item" href="index.php">
 					Home
 				</a>
-				<a class="item" href="view_all_workouts.php">
+				<a class="active item" href="view_all_workouts.php">
 					Workouts
 				</a>
 				<a class="item" href="view_schedule.php">
@@ -21,81 +21,83 @@
 				</a>
 				<?php require_once('right_menu.php'); ?>
 			</div>
-			<p>
-				<div class="ui input">
-					<input type="text" placeholder="Enter Workout Title" value="Chest Workout 01">
-				</div>
-			</p>
-			<p>
-				<div class="ui input">
-					<input type="text" id="exerciseName" placeholder="Enter exercise name here">
-				</div>
-				<span onclick="addExercise()" class="ui primary basic button">
-					Add Exercise
-				</span>
-			</p>
-			<div class="ui link cards" id="exerciseList">
-				<div class="card">
-					<div class=" content">
-						<p class=" header">Push Up</p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter rep amount" type="text" value="10">
-							<div class=" ui basic label">reps</div>
+			<div class="ui segment">
+				<p>
+					<div class="ui input">
+						<input type="text" placeholder="Enter Workout Title" value="Chest Workout 01">
+					</div>
+				</p>
+				<p>
+					<div class="ui input">
+						<input type="text" id="exerciseName" placeholder="Enter exercise name here">
+					</div>
+					<span onclick="addExercise()" class="ui primary basic button">
+						Add Exercise
+					</span>
+				</p>
+				<div class="ui link cards" id="exerciseList">
+					<div class="card">
+						<div class=" content">
+							<p class=" header">Push Up</p>
+							<div class=" ui right labeled input">
+								<input class="  " placeholder="Enter rep amount" type="text" value="10">
+								<div class=" ui basic label">reps</div>
+							</div>
+							<p class=" "></p>
+							<div class=" ui right labeled input">
+								<input class="  " placeholder="Enter set amount" type="text" value="3">
+								<div class=" ui basic label">sets</div>
+							</div>
 						</div>
-						<p class=" "></p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter set amount" type="text" value="3">
-							<div class=" ui basic label">sets</div>
+					</div>
+					<div class="card">
+						<div class=" content">
+							<p class=" header">Diamond Push Up</p>
+							<div class=" ui right labeled input">
+								<input class="  " placeholder="Enter rep amount" type="text" value="10">
+								<div class=" ui basic label">reps</div>
+							</div>
+							<p class=" "></p>
+							<div class=" ui right labeled input">
+								<input class="  " placeholder="Enter set amount" type="text" value="3">
+								<div class=" ui basic label">sets</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class=" content">
+							<p class=" header">Bench Press</p>
+							<div class=" ui right labeled input">
+								<input class="  " placeholder="Enter rep amount" type="text" value="10">
+								<div class=" ui basic label">reps</div>
+							</div>
+							<p class=" "></p>
+							<div class=" ui right labeled input">
+								<input class="  " placeholder="Enter set amount" type="text" value="3">
+								<div class=" ui basic label">sets</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class=" content">
+							<p class=" header">Pull Ups</p>
+							<div class=" ui right labeled input">
+								<input class="  " placeholder="Enter rep amount" type="text" value="10">
+								<div class=" ui basic label">reps</div>
+							</div>
+							<p class=" "></p>
+							<div class=" ui right labeled input">
+								<input class="  " placeholder="Enter set amount" type="text" value="3">
+								<div class=" ui basic label">sets</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="card">
-					<div class=" content">
-						<p class=" header">Diamond Push Up</p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter rep amount" type="text" value="10">
-							<div class=" ui basic label">reps</div>
-						</div>
-						<p class=" "></p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter set amount" type="text" value="3">
-							<div class=" ui basic label">sets</div>
-						</div>
-					</div>
+				<div class="ui buttons add_exercise_button">
+					<a href="index.php" class="ui button">Cancel</a>
+					<div class="or"></div>
+					<input type="submit" value="Save Workout" class="ui positive button" onclick="storeData()"></input>
 				</div>
-				<div class="card">
-					<div class=" content">
-						<p class=" header">Bench Press</p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter rep amount" type="text" value="10">
-							<div class=" ui basic label">reps</div>
-						</div>
-						<p class=" "></p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter set amount" type="text" value="3">
-							<div class=" ui basic label">sets</div>
-						</div>
-					</div>
-				</div>
-				<div class="card">
-					<div class=" content">
-						<p class=" header">Pull Ups</p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter rep amount" type="text" value="10">
-							<div class=" ui basic label">reps</div>
-						</div>
-						<p class=" "></p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter set amount" type="text" value="3">
-							<div class=" ui basic label">sets</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="ui buttons add_exercise_button">
-				<a href="index.php" class="ui button">Cancel</a>
-				<div class="or"></div>
-				<input type="submit" value="Save Workout" class="ui positive button" onclick="storeData()"></input>
 			</div>
 		</div>
 	</body>
