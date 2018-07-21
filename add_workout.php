@@ -21,20 +21,21 @@
 				</a>
 				<?php require_once('right_menu.php'); ?>
 			</div>
-			<p>
-				<div class="ui input">
-					<input type="text" placeholder="Enter Workout Title">
-				</div>
-			</p>
-			<p>
-				<div class="ui input">
-					<input type="text" id="exerciseName" placeholder="Enter exercise name here">
-				</div>
-				<span onclick="addExercise()" class="ui primary basic button">
-					Add Exercise
-				</span>
-			</p>
-			<div class="ui link cards" id="exerciseList">
+			<div class="ui segment">
+				<p>
+					<div class="ui input">
+						<input type="text" placeholder="Enter Workout Title">
+					</div>
+				</p>
+				<p>
+					<div class="ui input">
+						<input type="text" id="exerciseName" placeholder="Enter exercise name here">
+					</div>
+					<span onclick="addExercise()" class="ui primary basic button">
+						Add Exercise
+					</span>
+				</p>
+				<div class="ui link cards" id="exerciseList">
 				<!-- <div class="card">
 					<div class=" content">
 						<p class=" header">Push Up</p>
@@ -54,6 +55,7 @@
 				<a href="index.php" class="ui button">Cancel</a>
 				<div class="or"></div>
 				<input type="submit" value="Save Workout" class="ui positive button" onclick="storeData()"></input>
+			</div>
 			</div>
 		</div>
 			
