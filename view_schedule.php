@@ -22,7 +22,35 @@
 				<?php require_once('right_menu.php'); ?>
 			</div>
 			<div class="ui segment">
-				
+				<table class="ui striped celled table text-align-center">
+					<thead>
+						<tr>
+							<th><i class="icon clock outline"></i></th>
+							<th>Monday</th>
+							<th>Tuesday</th>
+							<th>Wednesday</th>
+							<th>Thursday</th>
+							<th>Friday</th>
+							<th>Saturday</th>
+							<th>Sunday</th>
+						</tr>
+					</thead>
+					<tbody>
+						<?php
+	
+							for($i = 0; $i < 24; $i++){
+								if($i < 10) $i = "0" . $i;
+								echo "<tr>";
+								echo "<td>" . $i . ":00</td>";
+								for($j = 0; $j < 7; $j ++){
+									echo "<td></td>";
+								}
+								echo "</tr>";	
+							}
+
+						?>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</body>
