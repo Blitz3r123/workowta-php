@@ -35,7 +35,7 @@
 						Add Exercise
 					</span>
 				</p>
-				<div class="ui link cards" id="exerciseList">
+				<div class="ui link four cards" id="exerciseList">
 					<div class="card">
 						<div class=" content">
 							<p class=" header">Push Up</p>
