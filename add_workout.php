@@ -3,29 +3,39 @@
 	<head>
 		<title>Add a Workout</title>
 		<link rel="stylesheet" href="css/add_workout_style.css">
+		<link rel="stylesheet" href="css/global_styles.css">
 		<?php require_once('dependencies.php'); ?>
 	</head>
 	<body onload="prefunction()">
-		<div class="ui container">
-			<p>
-				<h1 class="ui header">Add A Workout</h1>
-			</p>
-			<p>
-				<div class="ui input">
-					<input type="text" placeholder="Enter Workout Title">
+		<div class="pusher">
+			<div class="ui container margin-top-10vh">
+				<h1 class="ui header">Workowta</h1>
+				<div class="ui pointing menu">
+					<a class="item" href="index.php">
+						Home
+					</a>
+					<a class="item" href="view_all_workouts.php">
+						Workouts
+					</a>
+					<a class="item" href="view_schedule.php">
+						Schedule
+					</a>
+					<?php require_once('right_menu.php'); ?>
 				</div>
-			</p>
-			<p>
-				<div class="ui input">
-					<input type="text" id="exerciseName" placeholder="Enter exercise name here">
-				</div>
-				<span onclick="addExercise()" class="ui primary basic button">
-					Add Exercise
-				</span>
-			</p>
-			<!-- <ul id="exerciseList">
-			</ul> -->
-			<div class="ui link cards" id="exerciseList">
+				<p>
+					<div class="ui input">
+						<input type="text" placeholder="Enter Workout Title">
+					</div>
+				</p>
+				<p>
+					<div class="ui input">
+						<input type="text" id="exerciseName" placeholder="Enter exercise name here">
+					</div>
+					<span onclick="addExercise()" class="ui primary basic button">
+						Add Exercise
+					</span>
+				</p>
+				<div class="ui link cards" id="exerciseList">
 				<!-- <div class="card">
 					<div class=" content">
 						<p class=" header">Push Up</p>
@@ -40,7 +50,6 @@
 						</div>
 					</div>
 				</div> -->
-
 			</div>
 			<div class="ui buttons add_exercise_button">
 				<a href="index.php" class="ui button">Cancel</a>

@@ -3,30 +3,18 @@
 	<head>
 		<title>Workowta</title>
 		<link rel="stylesheet" href="css/index_style.css">
+		<link rel="stylesheet" href="css/global_styles.css">
 		<?php require_once('dependencies.php'); ?>
 	</head>
 	<body>
 		<div class="ui sidebar">
-			<div class="ui left demo vertical inverted sidebar labeled icon menu">
-				<a class="item">
-					<i class="home icon"></i>
-					Home
-				</a>
-				<a class="item">
-					<i class="block layout icon"></i>
-					Topics
-				</a>
-				<a class="item">
-					<i class="smile icon"></i>
-					Friends
-				</a>
-			</div>
+			
 		</div>
 		<div class="pusher">
 			<div class="ui container margin-top-10vh">
 				<h1 class="ui header">Workowta</h1>
 				<div class="ui pointing menu">
-					<a class="active item">
+					<a class="active item" href="index.php">
 						Home
 					</a>
 					<a class="item" href="view_all_workouts.php">
@@ -35,14 +23,7 @@
 					<a class="item" href="view_schedule.php">
 						Schedule
 					</a>
-					<div class="right menu">
-						<div class="item">
-							<div class="ui transparent icon input">
-								<input placeholder="Search..." type="text">
-								<i class="search link icon"></i>
-							</div>
-						</div>
-					</div>
+					<?php require_once('right_menu.php'); ?>
 				</div>
 				<div class="ui segment">
 					<h3 class="ui header">Recent Activities:</h3>

@@ -20,14 +20,7 @@
 				<a class="item" href="view_schedule.php">
 					Schedule
 				</a>
-				<div class="right menu">
-					<div class="item">
-						<div class="ui transparent icon input">
-							<input placeholder="Search..." type="text">
-							<i class="search link icon"></i>
-						</div>
-					</div>
-				</div>
+				<?php require_once('right_menu.php'); ?>
 			</div>
 			<div class="ui segment">
 				<h3 class="ui header margin-bottom-5vh" style="">Here are all your workouts: <a href="add_workout.php" class="secondary basic ui button right floated">Create a Workout</a></h3>
