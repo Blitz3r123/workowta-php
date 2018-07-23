@@ -23,7 +23,7 @@
 			</div>
 			<div class="ui segment">
 				<div class="ui celled list">
-					<h3 class="header margin-bottom-5vh">Chest Workout 01 <a href="edit_workout.php" class="secondary basic ui button right floated">Edit This Workout</a></h3>
+					<h3 class="header margin-bottom-5vh">Chest Workout 01 <a href="edit_workout.php" class="secondary basic ui button right floated"><i class="icon pencil alternate"></i>Edit This Workout</a></h3>
 					<div class="item">
 						<div class="content">
 							<div class="header">Push Up</div>

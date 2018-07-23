@@ -56,7 +56,6 @@
 				<div class="or"></div>
 				<input type="submit" value="Save Workout" class="ui positive button" onclick="storeData()"></input>
 			</div>
-			</div>
 		</div>
 			
 		<script src="js/global_functions.js"></script>

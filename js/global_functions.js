@@ -118,3 +118,15 @@ function createInput(type, class_name, placeholder_value){
 	input.setAttribute("placeholder", placeholder_value);
 	return input;
 }
+
+function showWorkoutType(){
+	workoutTypeDiv = document.getElementById('workoutChoiceDiv');
+	workoutTypeDiv.style.visibility = "visible";
+	workoutTypeDiv.style.visibility == "hidden" ? workoutTypeDiv.style.visibility = "visible" : workoutTypeDiv.style.visibility = "hidden"; 
+}
+
+function hideElement(elementID){
+	element = document.getElementById(elementID);
+	element.style.visibility = "hidden";
+	console.log(elementID + " has been hidden");
+}

@@ -6,11 +6,15 @@
 		<link rel="stylesheet" href="css/global_styles.css">
 		<?php require_once('dependencies.php'); ?>
 	</head>
-	<body>
+	<body onload="hideElement('workoutChoiceDiv')">
 		<div class="ui sidebar">
 			
 		</div>
 		<div class="pusher">
+			<div class="workout_choice" id="workoutChoiceDiv">
+				<a href="" class="ui button basic primary">Basic</a>
+				<a href="" class="ui button basic negative">Advanced</a>
+			</div>
 			<div class="ui container margin-top-10vh">
 				<h1 class="ui header">Workowta</h1>
 				<div class="ui pointing menu">
@@ -92,5 +96,6 @@
 		src="https://code.jquery.com/jquery-3.3.1.js"
 		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 		crossorigin="anonymous"></script>
+		<script src="js/global_functions.js"></script>
 	</body>
 </html>

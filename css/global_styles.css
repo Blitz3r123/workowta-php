@@ -17,3 +17,16 @@
 .margin-bottom-5vh{
 	margin-bottom: 5vh !important;
 }
+
+.workout_choice{
+	border: 1px solid #dededf;
+	border-radius: 4px;
+	width: 14vw;
+	text-align: center;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	position: absolute;
+
+	margin-left: 61vw;
+	margin-top: -2.6vh;
+}
