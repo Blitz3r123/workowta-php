@@ -12,8 +12,8 @@
 		</div>
 		<div class="pusher">
 			<div class="workout_choice" id="workoutChoiceDiv">
-				<a href="" class="ui button basic primary">Basic</a>
-				<a href="" class="ui button basic negative">Advanced</a>
+				<a href="add_basic_workout.php" class="ui button basic primary">Basic</a>
+				<a href="add_advanced_workout.php" class="ui button basic negative">Advanced</a>
 			</div>
 			<div class="ui container margin-top-10vh">
 				<h1 class="ui header">Workowta</h1>

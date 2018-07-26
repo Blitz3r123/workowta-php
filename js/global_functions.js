@@ -121,8 +121,11 @@ function createInput(type, class_name, placeholder_value){
 
 function showWorkoutType(){
 	workoutTypeDiv = document.getElementById('workoutChoiceDiv');
-	workoutTypeDiv.style.visibility = "visible";
-	workoutTypeDiv.style.visibility == "hidden" ? workoutTypeDiv.style.visibility = "visible" : workoutTypeDiv.style.visibility = "hidden"; 
+	if(workoutTypeDiv.style.visibility == "hidden"){
+		workoutTypeDiv.style.visibility = "visible";
+	}else{
+		workoutTypeDiv.style.visibility = "hidden";
+	}
 }
 
 function hideElement(elementID){
