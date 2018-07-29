@@ -24,7 +24,7 @@
 			<div class="ui segment">
 				<h1 class="ui header">CHEST DAY 01</h1>
 
-				<table class="ui striped table">
+				<table class="ui striped compact table">
 					<thead>
 						<tr>
 							<th colspan="3">Bench Press</th>
@@ -59,7 +59,7 @@
 					</tbody>
 				</table>
 
-				<table class="ui striped table">
+				<table class="ui striped compact table">
 					<thead>
 						<tr>
 							<th colspan="3">Incline Bench Press</th>

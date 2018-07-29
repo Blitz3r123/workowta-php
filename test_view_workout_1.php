@@ -22,7 +22,7 @@
 				<?php require_once('right_menu.php'); ?>
 			</div>
 			<div class="ui segment">
-				<table class="ui striped table">
+				<table class="ui striped compact table">
 					<tbody>
 						<tr><h1 class="ui">Chest Day 01</h1></tr>
 						<tr>
