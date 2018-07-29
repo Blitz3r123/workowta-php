@@ -52,7 +52,7 @@
 				<table class="ui striped blue compact table">
 					<thead>
 						<tr>
-							<th colspan="4" style="text-align: center;"><h3 class="ui header">Bench Press</h3></th>
+							<th colspan="4" style="text-align: center;"><h3 class="ui header">Bench Press<div class="ui left pointing label">Chest</div></h3></th>
 						</tr>
 						<tr>
 							<th>Rep Count</th>
@@ -98,7 +98,7 @@
 				<table class="ui striped blue compact table">
 					<thead>
 						<tr>
-							<th colspan="4" style="text-align: center;"><h3 class="ui header">Incline Bench Press</h3></th>
+							<th colspan="4" style="text-align: center;"><h3 class="ui header">Incline Bench Press<div class="ui left pointing label">Chest and Shoulders</div></h3></th>
 						</tr>
 						<tr>
 							<th>Rep Count</th>

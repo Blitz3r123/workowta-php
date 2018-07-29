@@ -52,7 +52,7 @@
 				<table class="ui striped blue compact table">
 					<thead>
 						<tr>
-							<th colspan="3">Bench Press</th>
+							<th colspan="3">Bench Press <div class="ui left pointing label">Chest</div></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -87,7 +87,7 @@
 				<table class="ui striped blue compact table">
 					<thead>
 						<tr>
-							<th colspan="3">Incline Bench Press</th>
+							<th colspan="3">Incline Bench Press <div class="ui left pointing label">Chest and Shoulders</div></th>
 						</tr>
 					</thead>
 					<tbody>
