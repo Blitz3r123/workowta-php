@@ -50,6 +50,7 @@
 						</div>
 					</div>
 				</div> -->
+				</div>
 			</div>
 			<div class="ui buttons add_exercise_button">
 				<a href="index.php" class="ui button">Cancel</a>
@@ -84,6 +85,7 @@
 						addExercise();
 					}
 				});
+				hideElement('workoutChoiceDiv');
 			}
 
 			function addExercise(){
@@ -98,6 +100,6 @@
 			}
 
 		</script>
-
+		<script src="js/global_functions.js"></script>
 	</body>
 </html>

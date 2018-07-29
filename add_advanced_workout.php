@@ -98,6 +98,6 @@
 			}
 
 		</script>
-
+		<script src="js/global_functions.js"></script>
 	</body>
 </html>
