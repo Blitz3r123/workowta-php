@@ -24,7 +24,7 @@
 			<div class="ui segment">
 				<h1 class="ui header">CHEST DAY 01 <div class="ui left pointing label">Targets: Chest, Shoulders</div></h1>
 				
-				<table class="ui compact table">
+				<table class="ui compact red table">
 					<thead>
 						<tr>
 							<th>Pre Workout Shakes</th>
@@ -49,7 +49,7 @@
 					</tbody>
 				</table>
 
-				<table class="ui striped compact table">
+				<table class="ui striped blue compact table">
 					<thead>
 						<tr>
 							<th colspan="3">Bench Press</th>
@@ -84,7 +84,7 @@
 					</tbody>
 				</table>
 
-				<table class="ui striped compact table">
+				<table class="ui striped blue compact table">
 					<thead>
 						<tr>
 							<th colspan="3">Incline Bench Press</th>
