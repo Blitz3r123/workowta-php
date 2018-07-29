@@ -22,9 +22,9 @@
 				<?php require_once('right_menu.php'); ?>
 			</div>
 			<div class="ui segment">
-				<h1 class="ui header">CHEST DAY 01</h1>
+				<h1 class="ui header">CHEST DAY 01 <div class="ui left pointing label">Targets: Chest, Shoulders</div></h1>
 
-				<table class="ui compact table">
+				<table class="ui compact red table">
 					<thead>
 						<tr>
 							<th>Pre Workout Shakes</th>
@@ -49,7 +49,7 @@
 					</tbody>
 				</table>
 
-				<table class="ui striped compact table">
+				<table class="ui striped blue compact table">
 					<thead>
 						<tr>
 							<th colspan="4" style="text-align: center;"><h3 class="ui header">Bench Press</h3></th>
@@ -95,7 +95,7 @@
 					</tbody>
 				</table>
 
-				<table class="ui striped compact table">
+				<table class="ui striped blue compact table">
 					<thead>
 						<tr>
 							<th colspan="4" style="text-align: center;"><h3 class="ui header">Incline Bench Press</h3></th>

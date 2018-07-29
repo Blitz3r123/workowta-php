@@ -22,7 +22,8 @@
 				<?php require_once('right_menu.php'); ?>
 			</div>
 			<div class="ui segment">
-				<h1 class="ui">Chest Day 01</h1>
+				<h1 class="ui header">CHEST DAY 01 <div class="ui left pointing label">Targets: Chest, Shoulders</div></h1>
+				
 				<table class="ui compact table">
 					<thead>
 						<tr>
