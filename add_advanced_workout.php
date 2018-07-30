@@ -2,11 +2,15 @@
 <html>
 	<head>
 		<title>Add a Workout</title>
-		<link rel="stylesheet" href="css/add_workout_style.css">
+		<link rel="stylesheet" href="css/add_advanced_workout_style.css">
 		<link rel="stylesheet" href="css/global_styles.css">
 		<?php require_once('dependencies.php'); ?>
 	</head>
 	<body onload="prefunction()">
+		<div class="workout_choice" id="workoutChoiceDiv">
+			<a href="add_basic_workout.php" class="ui button basic primary">Basic</a>
+			<a href="add_advanced_workout.php" class="ui button basic negative">Advanced</a>
+		</div>
 		<div class="ui container margin-top-10vh">
 			<h1 class="ui header">Workowta</h1>
 			<div class="ui pointing menu">
@@ -22,39 +26,198 @@
 				<?php require_once('right_menu.php'); ?>
 			</div>
 			<div class="ui segment">
-				<p>
-					<div class="ui input">
-						<input type="text" placeholder="Enter Workout Title">
-					</div>
-				</p>
-				<p>
-					<div class="ui input">
-						<input type="text" id="exerciseName" placeholder="Enter exercise name here">
-					</div>
-					<span onclick="addExercise()" class="ui primary basic button">
-						Add Exercise
-					</span>
-				</p>
-				<div class="ui four link cards" id="exerciseList">
-				<!-- <div class="card">
-					<div class=" content">
-						<p class=" header">Push Up</p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter rep amount" type="text">
-							<div class=" ui basic label">reps</div>
+				<h1 class="ui header">CHEST DAY 01 <div class="ui left pointing label">Targets: Chest, Shoulders</div></h1>
+
+				<div class="ui two column grid">
+					<div class="row">
+						<div class="column">
+							<table class="ui compact red table">
+								<thead>
+									<tr>
+										<th>Pre Workout Shakes</th>
+										<th>Amount (g)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="ui input">
+												<input type="text" placeholder="Supplement Name" value="Creatine">
+											</div>
+										</td>
+										<td>
+											<div class="ui right labeled input">
+												<input type="text" placeholder="Amount in grams" value="5">
+												<div class="ui basic label">
+													g
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="ui input">
+												<input type="text" placeholder="Supplement Name" value="">
+											</div>
+										</td>
+										<td>
+											<div class="ui right labeled input">
+												<input type="text" placeholder="Amount in grams" value="">
+												<div class="ui basic label">
+													g
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td style="text-align: center;" colspan="2"><i class="plus icon" id="addPreWorkoutShake"></i></td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
-						<p class=" "></p>
-						<div class=" ui right labeled input">
-							<input class="  " placeholder="Enter set amount" type="text">
-							<div class=" ui basic label">sets</div>
+						<div class="column">
+							<table class="ui compact red table">
+								<thead>
+									<tr>
+										<th>Post Workout Shakes</th>
+										<th>Amount (g)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="ui input">
+												<input type="text" placeholder="Supplement Name" value="Whey Protein">
+											</div>
+										</td>
+										<td>
+											<div class="ui right labeled input">
+												<input type="text" placeholder="Amount in grams" value="30">
+												<div class="ui basic label">
+													g
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="ui input">
+												<input type="text" placeholder="Supplement Name" value="">
+											</div>
+										</td>
+										<td>
+											<div class="ui right labeled input">
+												<input type="text" placeholder="Amount in grams" value="">
+												<div class="ui basic label">
+													g
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td style="text-align: center;" colspan="2"><i class="plus icon" id="addPostWorkoutShake"></i></td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
-				</div> -->
-			</div>
-			<div class="ui buttons add_exercise_button">
-				<a href="index.php" class="ui button">Cancel</a>
-				<div class="or"></div>
-				<input type="submit" value="Save Workout" class="ui positive button" onclick="storeData()"></input>
+				</div>
+				
+				
+
+				<table class="ui striped blue compact table">
+					<thead>
+						<tr>
+							<th colspan="4" style="text-align: center;"><h3 class="ui header">Bench Press<div class="ui left pointing label">Chest</div></h3></th>
+						</tr>
+						<tr>
+							<th>Rep Count</th>
+							<th>Weight (Kg)</th>
+							<th>Weight (lb)</th>
+							<th>Rest Time</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>15</td>
+							<td>20</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>25</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>30</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>3</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>4</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="ui striped blue compact table">
+					<thead>
+						<tr>
+							<th colspan="4" style="text-align: center;"><h3 class="ui header">Incline Bench Press<div class="ui left pointing label">Chest and Shoulders</div></h3></th>
+						</tr>
+						<tr>
+							<th>Rep Count</th>
+							<th>Weight (Kg)</th>
+							<th>Weight (lb)</th>
+							<th>Rest Time</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>15</td>
+							<td>20</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>25</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>30</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>3</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>4</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+					</tbody>
+				</table>
+
+
 			</div>
 		</div>
 			
@@ -77,27 +240,14 @@
 			}
 
 			function prefunction(){
-				var input = document.getElementById("exerciseName");
-
-				input.addEventListener("keydown", function(e){
-					if (e.keyCode === 13) {
-						addExercise();
-					}
-				});
-			}
-
-			function addExercise(){
-				var card = createExerciseCard();
-				document.getElementById("exerciseList").appendChild(card);
-				document.getElementById("exerciseName").value = "";
-			}
-			
-			function setCardContent(){
-				var contentDiv = createElement("div", "content");
-				return contentDiv;
+				hideElement('workoutChoiceDiv');
 			}
 
 		</script>
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
 		<script src="js/global_functions.js"></script>
 	</body>
 </html>

@@ -7,6 +7,10 @@
 		<?php require_once('dependencies.php'); ?>
 	</head>
 	<body onload="prefunction()">
+		<div class="workout_choice" id="workoutChoiceDiv">
+			<a href="add_basic_workout.php" class="ui button basic primary">Basic</a>
+			<a href="add_advanced_workout.php" class="ui button basic negative">Advanced</a>
+		</div>
 		<div class="ui container margin-top-10vh">
 			<h1 class="ui header">Workowta</h1>
 			<div class="ui pointing menu">

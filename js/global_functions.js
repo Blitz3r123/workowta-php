@@ -129,6 +129,10 @@ function showWorkoutType(){
 }
 
 function hideElement(elementID){
+	/*
+		Function for setting visibility of an element to hidden.
+		Just enter id of element as paramter and it will set visibility to hidden.
+	*/
 	element = document.getElementById(elementID);
 	element.style.visibility = "hidden";
 	console.log(elementID + " has been hidden");

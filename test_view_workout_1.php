@@ -23,7 +23,7 @@
 			</div>
 			<div class="ui segment">
 				<h1 class="ui header">CHEST DAY 01 <div class="ui left pointing label">Targets: Chest, Shoulders</div></h1>
-				
+
 				<table class="ui compact red table">
 					<thead>
 						<tr>
@@ -48,70 +48,100 @@
 						</tr>
 					</tbody>
 				</table>
+
 				<table class="ui striped blue compact table">
+					<thead>
+						<tr>
+							<th colspan="4" style="text-align: center;"><h3 class="ui header">Bench Press<div class="ui left pointing label">Chest</div></h3></th>
+						</tr>
+						<tr>
+							<th>Rep Count</th>
+							<th>Weight (Kg)</th>
+							<th>Weight (lb)</th>
+							<th>Rest Time</th>
+						</tr>
+					</thead>
 					<tbody>
 						<tr>
-							<td>15 Reps</td>
-							<td>Bench Press</td>
-							<td>20Kg / 44lb</td>
-							<td>30 sec Rest</td>
+							<td>15</td>
+							<td>20</td>
+							<td>44</td>
+							<td>30 sec</td>
 						</tr>
 						<tr>
-							<td>12 Reps</td>
-							<td>Bench Press</td>
-							<td>25Kg / 44lb</td>
-							<td>30 sec Rest</td>
+							<td>12</td>
+							<td>25</td>
+							<td>44</td>
+							<td>30 sec</td>
 						</tr>
 						<tr>
-							<td>10 Reps</td>
-							<td>Bench Press</td>
-							<td>30Kg / 44lb</td>
-							<td>30 sec Rest</td>
+							<td>10</td>
+							<td>30</td>
+							<td>44</td>
+							<td>30 sec</td>
 						</tr>
 						<tr>
-							<td>8 Reps</td>
-							<td>Bench Press</td>
-							<td>35Kg / 44lb</td>
-							<td>30 sec Rest</td>
+							<td>8</td>
+							<td>3</td>
+							<td>44</td>
+							<td>30 sec</td>
 						</tr>
 						<tr>
-							<td>6 Reps</td>
-							<td>Bench Press</td>
-							<td>40Kg / 44lb</td>
-							<td>30 sec Rest</td>
-						</tr>
-						<tr>
-							<td>15 Reps</td>
-							<td>Inclined Bench Press</td>
-							<td>20Kg / 44lb</td>
-							<td>30 sec Rest</td>
-						</tr>
-						<tr>
-							<td>12 Reps</td>
-							<td>Inclined Bench Press</td>
-							<td>25Kg / 44lb</td>
-							<td>30 sec Rest</td>
-						</tr>
-						<tr>
-							<td>10 Reps</td>
-							<td>Inclined Bench Press</td>
-							<td>30Kg / 44lb</td>
-							<td>30 sec Rest</td>
-						</tr>
-						<tr>
-							<td>8 Reps</td>
-							<td>Inclined Bench Press</td>
-							<td>35Kg / 44lb</td>
-							<td>30 sec Rest</td>
-						</tr>
-						<tr>
-							<td>6 Reps</td>
-							<td>Inclined Bench Press</td>
-							<td>40Kg / 44lb</td>
-							<td>30 sec Rest</td>
+							<td>6</td>
+							<td>4</td>
+							<td>44</td>
+							<td>30 sec</td>
 						</tr>
 					</tbody>
 				</table>
+
+				<table class="ui striped blue compact table">
+					<thead>
+						<tr>
+							<th colspan="4" style="text-align: center;"><h3 class="ui header">Incline Bench Press<div class="ui left pointing label">Chest and Shoulders</div></h3></th>
+						</tr>
+						<tr>
+							<th>Rep Count</th>
+							<th>Weight (Kg)</th>
+							<th>Weight (lb)</th>
+							<th>Rest Time</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>15</td>
+							<td>20</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>25</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>30</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>3</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>4</td>
+							<td>44</td>
+							<td>30 sec</td>
+						</tr>
+					</tbody>
+				</table>
+
+
 			</div>
 		</div>
 	</body>
