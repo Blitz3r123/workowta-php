@@ -70,7 +70,11 @@
 										</td>
 									</tr>
 									<tr>
-										<td style="text-align: center;" colspan="2"><i class="plus icon" id="addPreWorkoutShake"></i></td>
+										<td style="text-align: center;" colspan="2">
+											<div class="ui icon button" id="addPreWorkoutPopUp" data-tooltip="Add a Pre Workout Shake" data-position="right center">
+												<i class="plus icon" id="addPreWorkoutShake"></i>
+											</div>
+										</td>
 									</tr>
 								</tbody>
 							</table>
@@ -115,7 +119,11 @@
 										</td>
 									</tr>
 									<tr>
-										<td style="text-align: center;" colspan="2"><i class="plus icon" id="addPostWorkoutShake"></i></td>
+										<td style="text-align: center;" colspan="2">
+											<div class="ui icon button" id="addPostWorkoutPopUp" data-tooltip="Add a Post Workout Shake" data-position="right center">
+												<i class="plus icon" id="addPostWorkoutShake"></i>
+											</div>
+										</td>
 									</tr>
 								</tbody>
 							</table>
@@ -123,7 +131,59 @@
 					</div>
 				</div>
 				
-				
+				<table class="ui striped compact table">
+					<tbody>
+						<tr>
+							<td style="text-align: center;">
+								<div class="ui icon button" id="addExercisePopUp" data-tooltip="Add An Exercise" data-position="right center">
+									<i class="plus icon" id="addExercise"></i>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="ui striped structured green compact table">
+					<thead>
+						<tr>
+							<th class="ui fluid input">
+								<input
+									type="text" 
+									class="ui input" 
+									value="Bench Press"
+									placeholder="Enter Exercise Title">
+							</th>
+							<th>or</th>
+							<th>Search:</th>
+							<th>
+								<div class="ui category search">
+									<div class="ui icon input">
+										<input class="prompt" placeholder="Search exercises..." type="text">
+										<i class="search icon"></i>
+									</div>
+									<div class="results"></div>
+								</div>
+							</th>
+						</tr>
+						<tr>
+							<th>Rep Count</th>
+							<th>Weight (Kg)</th>
+							<th>Weight (lb)</th>
+							<th>Rest Time</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>15</td>
+							<td>15</td>
+							<td>15</td>
+							<td>15</td>
+						</tr>
+						<tr>
+							<td colspan="4" style="text-align: center;"><i class="plus icon" id="addExerciseRow"></i></td>
+						</tr>
+					</tbody>
+				</table>
 
 				<table class="ui striped blue compact table">
 					<thead>
@@ -242,6 +302,10 @@
 			function prefunction(){
 				hideElement('workoutChoiceDiv');
 			}
+
+			$(document).ready(function(){
+				$('#addExercisePopUp').popup();
+			});
 
 		</script>
 		<script

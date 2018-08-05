@@ -1,3 +1,3 @@
-#addPreWorkoutShake:hover, #addPostWorkoutShake:hover{
+#addPreWorkoutShake:hover, #addPostWorkoutShake:hover, #addExercise:hover, #addExerciseRow:hover{
 	cursor: pointer;
 }
