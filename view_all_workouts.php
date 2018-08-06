@@ -23,7 +23,7 @@
 				<?php require_once('right_menu.php'); ?>
 			</div>
 			<div class="ui segment">
-				<h3 class="ui header margin-bottom-5vh" style="">Here are all your workouts: <a href="add_workout.php" class="secondary basic ui button right floated">Create a Workout</a></h3>
+				<h3 class="ui header margin-bottom-5vh" style="">Here are all your workouts:</h3>
 				<div class="ui grid">
 					<div class="four wide column">
 						<div class="ui card">

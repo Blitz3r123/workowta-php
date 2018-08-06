@@ -24,7 +24,7 @@
 				</div>
 				<div class="row centered-width-50 text-align-center">
 					<div class="ui label margin-top-1vh">
-						<a href="index.php" class="ui labeled button">
+						<a href="index.php" class="labeled button">
 							Login
 							<i class="icon sign in alternate" style="margin-left: 0.3vw;"></i>
 						</a>
